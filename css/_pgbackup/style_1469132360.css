@@ -1,0 +1,190 @@
+
+
+html
+{
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+}
+
+#top-header
+{
+    background: #fff;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+header
+{
+    box-sizing: border-box;
+    padding: 0 1em;
+    height: 60px;
+    width: 100%;
+    background: #000;
+}
+
+.btn-left
+{
+    float: left;
+    cursor: pointer;
+    margin: 10px;
+    background-color: black;
+    height: 40px;
+    width: 60px;
+    position: relative;
+    border: 0;
+}
+
+.img-top
+{
+    height: 25px;
+    width: 25px;
+}
+
+.logo-img
+{
+    display: block;
+    width: 200px;
+    height: 40px;
+}
+
+.top-center
+{
+    margin: 0px auto;
+    display: block;
+    padding: 0.5em 1em;
+    width: 200px;
+    height: 40px;
+}
+
+.top-left
+{
+    display: inline-block;
+    float: left;
+    width: 200px;
+}
+
+.top-right
+{
+    display: inline-block;
+    width: 360px;
+    float: right;
+}
+
+.subscribe,.shop
+{
+    color: #ffF;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.150em;
+    line-height: 3.5em;
+}
+
+.subscribe:after
+{
+    background-color: #4d4d4d;
+    content: '';
+    display: inline-block;
+    height: 19.6px;
+    margin: 0 20px;
+    position: relative;
+    top: 5px;
+    width: 3px;
+}
+
+.btn-right
+{
+    color: rgba(255, 255, 255, 0.67);
+    font-size: 14px;
+    margin: 1px 10px 0px 20px;
+    width: 109px;
+    height: 38px;
+    border: 6px #fff;
+    border-radius: 10px;
+    background: rgba(41, 41, 41, 0.78);
+}
+
+.bg-img
+{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+.top-bg
+{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+.h-img
+{
+    color: #fff;
+    margin: 150px auto;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.h-img h1
+{
+    font-size: 2.5em;
+}
+
+.h-img a {
+	color: blue; ;
+	color: #fff;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.new-post
+{
+    background-color: rgba(241, 241, 241, 0.45);
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+
+.post-one{
+	
+    width: 400px;
+    height: 400px;
+    
+    float: left;
+    margin: 80px 70px;
+    text-align: center;
+}
+.post-two{
+	display: block;
+    width: 400px;
+    height: 400px;
+    
+    
+    margin: 80px auto;
+    text-align: center;
+}
+.post-tree{
+	    display: inline-block;
+    width: 400px;
+    height: 400px;
+    
+    float:right;
+    margin: 80px 70px;
+    text-align: center;
+}
+.post-img
+{
+	width: 400px;
+	height: 250px
+}
